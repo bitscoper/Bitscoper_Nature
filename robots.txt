@@ -1,0 +1,6 @@
+# By Abdullah As-Sadeed
+User-agent: *
+Allow: /
+Disallow:
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Sitemap: https://bitscoper-nature.site/sitemap.xml
