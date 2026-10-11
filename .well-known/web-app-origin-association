@@ -1,0 +1,17 @@
+{
+  "web_apps": [
+    {
+      "web_app_identity": "https://bitscoper-nature.site/",
+      "manifest": "https://bitscoper-nature.site/Application.webmanifest",
+      "details": {
+        "paths": [
+          "/*"
+        ],
+        "exclude_paths": []
+      },
+      "authorize": [
+        "intercept-links"
+      ]
+    }
+  ]
+}
