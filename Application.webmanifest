@@ -1,0 +1,217 @@
+{
+  "background_color": "#1e1e2e",
+  "categories": [
+    "photo",
+    "magazines",
+    "multimedia"
+  ],
+  "description": "A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License",
+  "dir": "ltr",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "tabbed",
+    "standalone"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "icons": [
+    {
+      "src": "/Icons/Opaque/Maskable/1024x1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/Apple/180x180.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/Apple/167x167.png",
+      "type": "image/png",
+      "sizes": "167x167",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/Apple/152x152.png",
+      "type": "image/png",
+      "sizes": "152x152",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/Maskable/48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Transparent/1024x1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/Icons/Transparent/Scalable.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ],
+  "id": "/",
+  "lang": "en",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "name": "Bitscoper Nature",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "scope": "/",
+  "scope_extensions": [
+    {
+      "origin": "https://bitscoper-nature.site/",
+      "type": "origin"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/Screenshots/Wide/1920x1080.png",
+      "type": "image/png",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "label": "Bitscoper Nature"
+    },
+    {
+      "src": "/Screenshots/Narrow/750x1334.png",
+      "type": "image/png",
+      "sizes": "750x1334",
+      "form_factor": "narrow",
+      "label": "Bitscoper Nature"
+    }
+  ],
+  "short_name": "BN",
+  "shortcuts": [
+    {
+      "name": "Bitscoper Nature",
+      "url": "/",
+      "description": "A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License",
+      "icons": [
+        {
+          "src": "/Icons/Transparent/192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/Icons/Transparent/96x96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        },
+        {
+          "src": "/Icons/Transparent/72x72.png",
+          "type": "image/png",
+          "sizes": "72x72"
+        },
+        {
+          "src": "/Icons/Transparent/48x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        }
+      ]
+    }
+  ],
+  "start_url": "/",
+  "tab_strip": {
+    "home_tab": {
+      "scope_patterns": [
+        {
+          "pathname": "/"
+        }
+      ]
+    },
+    "new_tab_button": {
+      "url": "/"
+    }
+  },
+  "theme_color": "#1e1e2e"
+}
