@@ -8,6 +8,10 @@ A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the C
 
 [![No AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg)](#notes)
 
+![Wide Screenshot](/Screenshots/Wide/1920x1080.png)
+
+![Narrow Screenshot](/Screenshots/Narrow/750x1334.png)
+
 </div>
 
 ## Notes
