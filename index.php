@@ -170,6 +170,17 @@ if (
             }
         }
 
+        $counts_p_element = $dom_document->getElementById("counts");
+        if ($counts_p_element !== null) {
+            clear_dom_node($counts_p_element);
+
+            $counts_p_element->appendChild(
+                $dom_document->createTextNode(
+                    count($photographs) . " Photographs"
+                )
+            );
+        }
+
         $article_element = $dom_document
             ->getElementsByTagName("article")
             ->item(0);
