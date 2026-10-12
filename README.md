@@ -1,5 +1,7 @@
 <div align="center">
 
+![Bitscoper Computer Museum](/Icons/Transparent/128x128.png)
+
 # Bitscoper Nature
 
 A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License

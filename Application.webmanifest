@@ -19,70 +19,82 @@
   "handle_links": "preferred",
   "icons": [
     {
-      "src": "/Icons/Opaque/Maskable/1024x1024.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/3538x3538.png",
+      "type": "image/png",
+      "sizes": "3538x3538",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Opaque/25_Percent_Padding/1024x1024.png",
       "type": "image/png",
       "sizes": "1024x1024",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/512x512.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/384x384.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/384x384.png",
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/192x192.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/Apple/180x180.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/Apple/180x180.png",
       "type": "image/png",
       "sizes": "180x180",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/Apple/167x167.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/Apple/167x167.png",
       "type": "image/png",
       "sizes": "167x167",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/Apple/152x152.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/Apple/152x152.png",
       "type": "image/png",
       "sizes": "152x152",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/128x128.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/128x128.png",
       "type": "image/png",
       "sizes": "128x128",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/96x96.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/96x96.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/72x72.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/72x72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/Maskable/48x48.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/48x48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "maskable"
+    },
+    {
+      "src": "/Icons/Transparent/2654x2654.png",
+      "type": "image/png",
+      "sizes": "2654x2654",
+      "purpose": "any"
     },
     {
       "src": "/Icons/Transparent/1024x1024.png",
@@ -130,12 +142,6 @@
       "src": "/Icons/Transparent/48x48.png",
       "type": "image/png",
       "sizes": "48x48",
-      "purpose": "any"
-    },
-    {
-      "src": "/Icons/Transparent/Scalable.svg",
-      "type": "image/svg+xml",
-      "sizes": "any",
       "purpose": "any"
     }
   ],
