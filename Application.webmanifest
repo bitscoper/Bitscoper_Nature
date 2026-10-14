@@ -1,27 +1,19 @@
 {
   "background_color": "#1e1e2e",
-  "categories": [
-    "photo",
-    "magazines",
-    "multimedia"
-  ],
+  "categories": ["photo", "magazines", "multimedia"],
   "description": "A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License",
   "dir": "ltr",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "tabbed",
-    "standalone"
-  ],
+  "display_override": ["window-controls-overlay", "tabbed", "standalone"],
   "edge_side_panel": {
     "preferred_width": 400
   },
   "handle_links": "preferred",
   "icons": [
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/3538x3538.png",
+      "src": "/Icons/Opaque/25_Percent_Padding/3537x3537.png",
       "type": "image/png",
-      "sizes": "3538x3538",
+      "sizes": "3537x3537",
       "purpose": "maskable"
     },
     {
@@ -91,9 +83,9 @@
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Transparent/2654x2654.png",
+      "src": "/Icons/Transparent/2653x2653.png",
       "type": "image/png",
-      "sizes": "2654x2654",
+      "sizes": "2653x2653",
       "purpose": "any"
     },
     {
