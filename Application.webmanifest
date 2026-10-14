@@ -1,137 +1,145 @@
 {
   "background_color": "#1e1e2e",
-  "categories": ["photo", "magazines", "multimedia"],
+  "categories": [
+    "photo",
+    "magazines",
+    "multimedia"
+  ],
   "description": "A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License",
   "dir": "ltr",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "tabbed", "standalone"],
+  "display_override": [
+    "window-controls-overlay",
+    "tabbed",
+    "standalone"
+  ],
   "edge_side_panel": {
     "preferred_width": 400
   },
   "handle_links": "preferred",
   "icons": [
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/3537x3537.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_3537x3537.png",
       "type": "image/png",
       "sizes": "3537x3537",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/1024x1024.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_1024x1024.png",
       "type": "image/png",
       "sizes": "1024x1024",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/512x512.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/384x384.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_384x384.png",
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/192x192.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/Apple/180x180.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_180x180.png",
       "type": "image/png",
       "sizes": "180x180",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/Apple/167x167.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_167x167.png",
       "type": "image/png",
       "sizes": "167x167",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/Apple/152x152.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_152x152.png",
       "type": "image/png",
       "sizes": "152x152",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/128x128.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_128x128.png",
       "type": "image/png",
       "sizes": "128x128",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/96x96.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_96x96.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/72x72.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_72x72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Opaque/25_Percent_Padding/48x48.png",
+      "src": "/Icons/square_cdd6f4Background_25percentPadding_colored_48x48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "maskable"
     },
     {
-      "src": "/Icons/Transparent/2653x2653.png",
+      "src": "/Icons/square_transparent_unpadded_colored_2653x2653.png",
       "type": "image/png",
       "sizes": "2653x2653",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/1024x1024.png",
+      "src": "/Icons/square_transparent_unpadded_colored_1024x1024.png",
       "type": "image/png",
       "sizes": "1024x1024",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/512x512.png",
+      "src": "/Icons/square_transparent_unpadded_colored_512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/384x384.png",
+      "src": "/Icons/square_transparent_unpadded_colored_384x384.png",
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/192x192.png",
+      "src": "/Icons/square_transparent_unpadded_colored_192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/128x128.png",
+      "src": "/Icons/square_transparent_unpadded_colored_128x128.png",
       "type": "image/png",
       "sizes": "128x128",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/96x96.png",
+      "src": "/Icons/square_transparent_unpadded_colored_96x96.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/72x72.png",
+      "src": "/Icons/square_transparent_unpadded_colored_72x72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "any"
     },
     {
-      "src": "/Icons/Transparent/48x48.png",
+      "src": "/Icons/square_transparent_unpadded_colored_48x48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "any"
@@ -168,7 +176,7 @@
       "label": "Bitscoper Nature"
     }
   ],
-  "short_name": "BN",
+  "short_name": "B. Nature",
   "shortcuts": [
     {
       "name": "Bitscoper Nature",
@@ -176,22 +184,22 @@
       "description": "A PHP-Driven Single-Page PWA Gallery of Nature Photographs Collected Under the Creative Commons Zero (CC0) License",
       "icons": [
         {
-          "src": "/Icons/Transparent/192x192.png",
+          "src": "/Icons/square_transparent_unpadded_colored_192x192.png",
           "type": "image/png",
           "sizes": "192x192"
         },
         {
-          "src": "/Icons/Transparent/96x96.png",
+          "src": "/Icons/square_transparent_unpadded_colored_96x96.png",
           "type": "image/png",
           "sizes": "96x96"
         },
         {
-          "src": "/Icons/Transparent/72x72.png",
+          "src": "/Icons/square_transparent_unpadded_colored_72x72.png",
           "type": "image/png",
           "sizes": "72x72"
         },
         {
-          "src": "/Icons/Transparent/48x48.png",
+          "src": "/Icons/square_transparent_unpadded_colored_48x48.png",
           "type": "image/png",
           "sizes": "48x48"
         }

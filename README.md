@@ -1,6 +1,6 @@
 <div align="center">
 
-![Bitscoper Computer Museum](/Icons/Transparent/128x128.png)
+![Bitscoper Computer Museum](/Icons/square_transparent_unpadded_colored_128x128.png)
 
 # Bitscoper Nature
 
