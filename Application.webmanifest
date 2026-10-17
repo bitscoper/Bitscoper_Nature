@@ -153,6 +153,12 @@
   "name": "Bitscoper Nature",
   "orientation": "any",
   "prefer_related_applications": false,
+  "protocol_handlers": [
+    {
+      "protocol": "web+BitscoperNature",
+      "url": "/#%s"
+    }
+  ],
   "scope": "/",
   "scope_extensions": [
     {
