@@ -81,8 +81,32 @@
       }
 
       main header p {
-        margin: 1rem;
+        display: block;
+        margin: 1rem auto 1rem auto;
         color: var(--text);
+      }
+
+      @media (max-width: 768px) {
+        main header p br {
+          display: none;
+        }
+
+        main header p br::after {
+          content: " ";
+        }
+      }
+
+      main header p a {
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--text);
+        cursor: pointer;
+        transition: color 0.2s;
+      }
+
+      main header p a:hover,
+      main header p a:focus {
+        color: var(--lavender);
       }
 
       main article {
@@ -138,7 +162,9 @@
     <main>
       <header>
         <h1>Bitscoper Nature</h1>
-        <p id="counts" />
+        <p>
+          A collection of <span id="counts" /> nature photographs licensed exclusively under <a href="https://creativecommons.org/publicdomain/zero/" title="Creative Commons Zero (CC0)" target="_blank">Creative Commons Zero (CC0)</a>,<br />selected for having camera metadata and containing no artificial objects or humans,<br />with original sources and unique identifiers provided.
+        </p>
       </header>
       <article />
       <footer>
