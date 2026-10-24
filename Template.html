@@ -86,16 +86,6 @@
         color: var(--text);
       }
 
-      @media (max-width: 768px) {
-        main header p br {
-          display: none;
-        }
-
-        main header p br::after {
-          content: " ";
-        }
-      }
-
       main header p a {
         text-decoration: none;
         font-weight: bold;
@@ -162,9 +152,7 @@
     <main>
       <header>
         <h1>Bitscoper Nature</h1>
-        <p>
-          A collection of <span id="counts" /> nature photographs licensed exclusively under <a href="https://creativecommons.org/publicdomain/zero/" title="Creative Commons Zero (CC0)" target="_blank">Creative Commons Zero (CC0)</a>,<br />selected for having camera metadata and containing no artificial objects or humans,<br />with original sources and unique identifiers provided.
-        </p>
+        <p> A collection of <span id="counts" /> nature photographs licensed exclusively under <a href="https://creativecommons.org/publicdomain/zero/" title="Creative Commons Zero (CC0)" target="_blank">Creative Commons Zero (CC0)</a>, <br />selected for having camera metadata and containing no artificial objects or humans, <br />with original sources and unique identifiers provided. </p>
       </header>
       <article />
       <footer>
@@ -179,12 +167,22 @@
 
       "use strict";
 
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/Service_Worker.js");
+      function handleResponsiveBreaks() {
+        window.document.querySelectorAll("main header p").forEach((paragraphElement) => {
+          if (!paragraphElement.dataset.originalHtml) {
+            paragraphElement.dataset.originalHtml = paragraphElement.innerHTML;
+          }
+          if (window.innerWidth <= 768) {
+            paragraphElement.innerHTML = paragraphElement.dataset.originalHtml.replace(/ < br\ s * \/?>/gi, " ");
+          } else {
+            paragraphElement.innerHTML = paragraphElement.dataset.originalHtml;
+          }
+        });
       }
 
       window.onload = function() {
-        document.querySelectorAll("main article figure img").forEach((imageElement) => {
+        handleResponsiveBreaks();
+        window.document.querySelectorAll("main article figure img").forEach((imageElement) => {
           imageElement.onclick = async function() {
             try {
               if (imageElement.requestFullscreen) {
@@ -198,6 +196,12 @@
           };
         });
       };
+
+      window.onresize = handleResponsiveBreaks;
+
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/Service_Worker.js");
+      }
     </script>
   </body>
 </html>
