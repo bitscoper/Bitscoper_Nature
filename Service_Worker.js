@@ -3,7 +3,7 @@
 "use strict";
 
 const cacheName = "Bitscoper_Nature";
-const offlineFallbackPage = "Offline_Fallback.txt";
+const offlineFallbackPage = "Offline.svg";
 
 self.onmessage = function (event) {
   if (event.data && event.data?.type === "SKIP_WAITING") {
